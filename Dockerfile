@@ -1,7 +1,7 @@
 FROM buildpack-deps:latest
 MAINTAINER Sam Doshi <sam@metal-fish.co.uk>
 
-ENV STACK_VERSION 1.0.2
+ENV STACK_VERSION 1.3.2
 
 ENV STACK_DOWNLOAD_URL https://github.com/commercialhaskell/stack/releases/download/v$STACK_VERSION/stack-$STACK_VERSION-linux-x86_64.tar.gz
 ENV DEBIAN_FRONTEND noninteractive
